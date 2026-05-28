@@ -39,7 +39,7 @@ describe("Comandos basicos", () => {
     cy.visit("https://automationpratice.com.br/checkout-one");
     //pelo nome da opção a ser selecionada
     cy.get("#country").select("usa");
-    //pela posição na lista
+    //pela posição na lista teste
     cy.get("#country").select(1);
   });
 
